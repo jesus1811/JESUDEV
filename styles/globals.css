@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --blanco: #ffffff;
-  --azul: #282c34;
-  --azulBrillante: #61dafb;
-  --azulOscuro: #20232a;
-  --negro: black;
-  --blackTransparent: #0d0d0dd9;
-} */
-
 @media screen and (max-width: 1024px) {
   .container {
     width: 85%;
