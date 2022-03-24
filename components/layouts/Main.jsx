@@ -11,15 +11,22 @@ export const Main = ({ children }) => {
           name="description"
           content="te invito a ver mi web personal desarrollado en NextJS"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="keywords"
+          content="jesudev,portafolio,reactjs,frontend,javascript"
+        />
+        <meta name="autor" content="jesus ayarza"/>
+        <meta name="generator" content="nextjs"/>
         {
           //agregar etqiuetas metas datos para el SEO
         }
       </Head>
-      <Header />
-      <main>{children}</main>
 
-      <Footer />
+      <main>
+        <Header />
+        {children}
+        <Footer />
+      </main>
     </>
   );
 };
