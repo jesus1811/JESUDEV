@@ -1,10 +1,10 @@
-import Aos from "aos";
+import {init} from "aos";
 import { useEffect } from "react";
 import { Link } from "react-scroll";
 
 export const LinkTransparent = ({ title, to }) => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    init({ duration: 2000 });
   }, []);
   return (
     <Link

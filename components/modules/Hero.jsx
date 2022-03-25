@@ -1,7 +1,6 @@
 import Aos from "aos";
 import Image from "next/image";
 import { useEffect } from "react";
-import { LabelMain, LinkCard } from "../common";
 
 export const Hero = () => {
   useEffect(() => {
@@ -19,8 +18,13 @@ export const Hero = () => {
         layout="fill"
       />
       <div className="flex flex-col justify-center items-center gap-5">
-        <LabelMain title="Jesus Ayarza" />
-        <p className="text-[20px] text-white" data-aos="fade-up">
+        <h2
+          className="lg:text-6xl text-[45px] text-[#61dafb] font-semibold"
+          data-aos="fade-up"
+        >
+          Jesus Ayarza
+        </h2>
+        <p className="lg:text-3xl text-[22px] text-white" data-aos="fade-up">
           Front End Developer - React
         </p>
       </div>

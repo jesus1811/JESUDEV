@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import Aos from "aos";
+import {init} from "aos";
 export const LabelMain = ({ title }) => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    init({ duration: 2000 });
   }, []);
   return (
     <h2 className="text-[40px] text-[#61dafb] font-semibold" data-aos="fade-up">
