@@ -1,8 +1,11 @@
-import {init} from "aos";
+import { init } from "aos";
 import { useEffect } from "react";
 import { Link } from "react-scroll";
-
-export const LinkTransparent = ({ title, to }) => {
+interface Props {
+  children: string;
+  to: string;
+}
+export const LinkTransparent = ({ children, to }: Props) => {
   useEffect(() => {
     init({ duration: 2000 });
   }, []);
@@ -14,7 +17,7 @@ export const LinkTransparent = ({ title, to }) => {
     text-[#61dafb] transition-all text-[20px] bg-transparent cursor-pointer  hover:bg-[#61dafb] hover:text-black"
       data-aos="zoom-in"
     >
-      {title}
+      {children}
     </Link>
   );
 };

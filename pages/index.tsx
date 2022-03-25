@@ -1,16 +1,17 @@
+import { NextPage } from "next";
 import { Main } from "../components/layouts";
 import { About, Hero, Project, Skill } from "../components/modules";
 
-function Home() {
+const Home: NextPage = () => {
   return (
-    <>
-      <Main>
+    <Main>
+      <>
         <Hero />
         <About />
         <Skill />
         <Project />
-      </Main>
-    </>
+      </>
+    </Main>
   );
-}
+};
 export default Home;

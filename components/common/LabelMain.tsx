@@ -1,12 +1,15 @@
 import { useEffect } from "react";
 import {init} from "aos";
-export const LabelMain = ({ title }) => {
+interface Props {
+  children: string;
+}
+export const LabelMain = ({ children }: Props) => {
   useEffect(() => {
     init({ duration: 2000 });
   }, []);
   return (
     <h2 className="text-[40px] text-[#61dafb] font-semibold" data-aos="fade-up">
-      {title}
+      {children}
     </h2>
   );
 };

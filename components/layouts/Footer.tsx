@@ -6,7 +6,7 @@ export const Footer = () => {
       className="contact flex flex-col justify-center items-center w-full
  bg-[#20232a] py-[50px] gap-[30px] min-h-[50vh]"
     >
-      <LabelMain title="Contactos" />
+      <LabelMain>Contactos</LabelMain>
       <div
         className="flex flex-col justify-center items-center 
   w-9/12 h-full gap-[30px]"

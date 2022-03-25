@@ -1,8 +1,12 @@
 import { useEffect } from "react";
-import {init} from "aos";
+import { init } from "aos";
 import "aos/dist/aos.css";
+interface Props {
+  children: string;
+  href: string;
+}
 
-export const LinkPrimary = ({ title, href }) => {
+export const LinkPrimary = ({ children, href }: Props) => {
   useEffect(() => {
     init({ duration: 2000 });
   }, []);
@@ -17,7 +21,7 @@ export const LinkPrimary = ({ title, href }) => {
       rel="noreferrer"
       download="descarga"
     >
-      {title}
+      {children}
     </a>
   );
 };

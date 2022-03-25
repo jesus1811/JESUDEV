@@ -24,10 +24,10 @@ flex flex-col justify-center items-center bg-[#0d0d0dd9]"
           />
         </label>
         <nav className="w-full flex justify-end gap-[18px] transition-all links__nav">
-          <LinkNav title="Sobre Mi" to="about" />
-          <LinkNav title="Skills" to="skill" />
-          <LinkNav title="Proyectos" to="proyect" />
-          <LinkNav title="Contactos" to="contact" />
+          <LinkNav to="about">Sobre Mi</LinkNav>
+          <LinkNav to="skill">Skills</LinkNav>
+          <LinkNav to="proyect">Proyectos</LinkNav>
+          <LinkNav to="contact">Contactos</LinkNav>
         </nav>
       </div>
     </div>

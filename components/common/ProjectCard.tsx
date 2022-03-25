@@ -1,10 +1,23 @@
 import { useEffect } from "react";
-import {init} from "aos";
+import { init } from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import { LinkPrimary } from "./LinkPrimary";
+interface Props {
+  children: string;
+  icon: string;
+  description: string;
+  tegnologia: string;
+  href: string;
+}
 
-export const ProjectCard = ({ title, icon, description, tegnologia, href }) => {
+export const ProjectCard = ({
+  children,
+  icon,
+  description,
+  tegnologia,
+  href,
+}: Props) => {
   useEffect(() => {
     init({ duration: 2000 });
   }, []);
@@ -14,7 +27,7 @@ export const ProjectCard = ({ title, icon, description, tegnologia, href }) => {
         className="flex flex-col justify-center items-center w-full h-full gap-[25px]"
         data-aos="zoom-in"
       >
-        <p className="text-xl text-white text-center z-[3]">{title}</p>
+        <p className="text-xl text-white text-center z-[3]">{children}</p>
         <Image
           src={icon}
           width="250"
@@ -33,7 +46,8 @@ export const ProjectCard = ({ title, icon, description, tegnologia, href }) => {
             {tegnologia}
           </span>
           <br />
-          <LinkPrimary title="Ir al sitio Web" href={href} />
+          {/* <LinkPrimary title="Ir al sitio Web" href={href} /> */}
+          <LinkPrimary href={href}>Ir al sitio Web</LinkPrimary>
         </div>
       </div>
     </>

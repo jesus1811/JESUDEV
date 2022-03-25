@@ -1,8 +1,12 @@
 import Head from "next/head";
+import { FC } from "react";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+interface Props {
+  children: JSX.Element;
+}
 
-export const Main = ({ children }) => {
+export const Main = ({ children }: Props) => {
   return (
     <>
       <Head>
@@ -15,8 +19,8 @@ export const Main = ({ children }) => {
           name="keywords"
           content="jesudev,portafolio,reactjs,frontend,javascript"
         />
-        <meta name="autor" content="jesus ayarza"/>
-        <meta name="generator" content="nextjs"/>
+        <meta name="autor" content="jesus ayarza" />
+        <meta name="generator" content="nextjs" />
         {
           //agregar etqiuetas metas datos para el SEO
         }

@@ -15,7 +15,7 @@ export const Skill = () => {
           gap-2"
           data-aos="fade-right"
         >
-          <LabelMain title="Skills" />
+          <LabelMain>Skills</LabelMain>
           Mi sección de tecnologías:
         </p>
         <div

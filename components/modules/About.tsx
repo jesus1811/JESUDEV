@@ -10,7 +10,7 @@ export const About = () => {
        pt-[72px] pb-8"
       >
         <div className="w-9/12 h-full flex flex-col justify-center items-center gap-20">
-          <LabelMain title="Sobre Mi" />
+          <LabelMain>Sobre Mi</LabelMain>
           <p className="text-white text-[20px] text-justify" data-aos="fade-up">
             HELLO WORLD! I AM JESUS AYARZA Soy Front End Developer
             especializándome en React JS y la maquetación responsive, tengo 6
@@ -22,11 +22,10 @@ export const About = () => {
             [grid-template-columns:repeat(auto-fit,minmax(250px,1fr))] gap-7"
             data-aos="fade-up"
           >
-            <LinkPrimary
-              title="Descargar CV"
-              href="https://jesus1811.github.io/cv/JesusAyarzaCV.pdf"
-            />
-            <LinkTransparent title="Contactame" to="contact" />
+            <LinkPrimary href="https://jesus1811.github.io/cv/JesusAyarzaCV.pdf">
+              Descargar CV
+            </LinkPrimary>
+            <LinkTransparent to="contact">Contactame</LinkTransparent>
           </div>
         </div>
       </section>
