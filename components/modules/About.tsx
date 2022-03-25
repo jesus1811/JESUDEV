@@ -12,10 +12,11 @@ export const About = () => {
         <div className="w-9/12 h-full flex flex-col justify-center items-center gap-20">
           <LabelMain>Sobre Mi</LabelMain>
           <p className="text-white text-[20px] text-justify" data-aos="fade-up">
-            HELLO WORLD! I AM JESUS AYARZA Soy Front End Developer
+            HELLO WORLD! I AM JESUS AYARZA Soy Front-end Developer
             especializándome en React JS y la maquetación responsive, tengo 6
             meses de experiencia en trabajo remoto en equipo creando
-            aplicaciones web y landing page personalizadas
+            aplicaciones web y landing page personalizadas, me caracterizo por
+            leer mucha documentación y seguir buenas practicas.
           </p>
           <div
             className="w-full grid justify-items-center items-center 
