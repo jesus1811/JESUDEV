@@ -1,5 +1,4 @@
 import { LabelMain } from "../components/common";
-import { Footer, Main } from "../components/layouts";
 
 const Custom404 = () => {
   return (
