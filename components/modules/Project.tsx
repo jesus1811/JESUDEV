@@ -16,12 +16,13 @@ export const Project = () => {
        justify-items-center items-center w-full gap-[30px]"
         >
           <ProjectCard
-            icon="/poke-api.png"
-            href="https://jesus1811.github.io/buscadorPokemon"
-            description="Esta aplicacion lo hice usando la famosa API de pokemon"
-            tegnologia="REACT-SASS"
+            icon="/pokedex.png"
+            href="https://pokedex-nextjs-jesudev.vercel.app/"
+            description="Esta aplicacion la realize de forma estatica(Static Side Generation)
+             haciendo uso de la popular API de pokemones"
+            tegnologia="NEXTJS-TAILWIND"
           >
-            Buscador de Pokemones
+            Pokedex
           </ProjectCard>
           <ProjectCard
             icon="/multi-task.png"
