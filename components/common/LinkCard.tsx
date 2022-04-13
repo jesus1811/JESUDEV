@@ -9,7 +9,10 @@ export const LinkCard = ({ enlace, icon }: Props) => {
         className="w-[90px] border-2 border-transparent rounded-[50%] hover:border-[#61dafb]"
         src={icon}
         alt=""
+        data-aos="fade-up"
+
       />
+
     </a>
   );
 };

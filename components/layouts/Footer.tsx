@@ -1,10 +1,17 @@
 import { LabelMain, LinkCard } from "../common";
+import { useEffect } from "react";
+import { init } from "aos";
+import "aos/dist/aos.css";
+
 
 export const Footer = () => {
+    useEffect(() => {
+    init({ duration: 2000 });
+  }, []);
   return (
     <section
-      className="contact flex flex-col justify-center items-center w-full
- bg-[#20232a] py-[50px] gap-[30px] min-h-[50vh]"
+      className="contact flex flex-col justify-around items-center w-full
+ bg-[#20232a] py-[50px] gap-[30px] min-h-[77vh]"
     >
       <LabelMain>Contactos</LabelMain>
       <div
@@ -23,12 +30,13 @@ export const Footer = () => {
           <LinkCard icon="/telegram.svg" enlace="https://t.me/jesusA1811" />
           <LinkCard icon="/github.svg" enlace="https://github.com/jesus1811" />
         </div>
-        <div className="copy">
+        
+      </div>
+      <div className="copy">
           <p className="text-white text-xl text-center">
             ©|Copyright 2022 desarrollado por Jesus ayarza|
           </p>
         </div>
-      </div>
     </section>
   );
 };
