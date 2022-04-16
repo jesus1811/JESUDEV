@@ -1,14 +1,15 @@
-import { LabelMain, LinkPrimary, LinkTransparent } from "../common";
+import {
+  ContainerPrimary,
+  LabelMain,
+  LinkPrimary,
+  LinkTransparent,
+} from "../common";
 
 export const About = () => {
   return (
     <>
       <div className="inicio h-screen"></div>
-      <section
-        className="about w-full min-h-screen flex justify-center
-         items-center bg-[#282c34]
-       pt-[72px] pb-8"
-      >
+      <ContainerPrimary className="about" color="bg-[#282c34]">
         <div className="w-9/12 h-full flex flex-col justify-center items-center gap-20">
           <LabelMain>Sobre Mi</LabelMain>
           <p className="text-white text-[20px] text-justify" data-aos="fade-up">
@@ -16,7 +17,7 @@ export const About = () => {
             especializándome en React JS y la maquetación responsive, tengo 6
             meses de experiencia en trabajo remoto en equipo creando
             aplicaciones web y landing page personalizadas, me caracterizo por
-            leer mucha documentación y seguir buenas practicas.
+            ser autodidacta leer mucha documentación y seguir buenas practicas.
           </p>
           <div
             className="w-full grid justify-items-center items-center 
@@ -29,7 +30,7 @@ export const About = () => {
             <LinkTransparent to="contact">Contactame</LinkTransparent>
           </div>
         </div>
-      </section>
+      </ContainerPrimary>
     </>
   );
 };

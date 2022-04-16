@@ -1,11 +1,8 @@
-import { ImageCard, LabelMain } from "../common";
+import { ContainerPrimary, ImageCard, LabelMain } from "../common";
 
 export const Skill = () => {
   return (
-    <section
-      className="skill w-full min-h-screen bg-[#20232a] 
-    flex flex-col justify-center items-center pt-[72px] pb-16"
-    >
+    <ContainerPrimary className="skill" color="bg-[#20232a]">
       <div
         className="grid [grid-template-columns:repeat(auto-fit,minmax(250px,1fr))]
      justify-items-stretch items-center w-9/12 h-[65%] gap-[30px]"
@@ -36,6 +33,6 @@ export const Skill = () => {
           <ImageCard icono="/gitlab.svg" nombre="GitLab" />
         </div>
       </div>
-    </section>
+    </ContainerPrimary>
   );
 };

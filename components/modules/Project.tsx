@@ -1,11 +1,8 @@
-import { LabelMain, ProjectCard } from "../common";
+import { ContainerPrimary, LabelMain, ProjectCard } from "../common";
 
 export const Project = () => {
   return (
-    <section
-      className="proyect w-full min-h-screen bg-[#282c34] flex flex-col 
-  justify-center items-center pt-[72px] pb-[40px]"
-    >
+    <ContainerPrimary className="proyect" color="bg-[#282c34]">
       <div
         className="w-9/12 h-full flex flex-col justify-evenly 
     items-center gap-8"
@@ -78,6 +75,6 @@ export const Project = () => {
           </ProjectCard>
         </div>
       </div>
-    </section>
+    </ContainerPrimary>
   );
 };

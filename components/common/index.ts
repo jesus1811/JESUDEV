@@ -5,3 +5,4 @@ export * from "./LabelMain";
 export * from "./ImageCard";
 export * from "./LinkCard";
 export * from "./ProjectCard";
+export * from "./ContainerPrimary";

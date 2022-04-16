@@ -34,7 +34,7 @@ export const Footer = () => {
       </div>
       <div className="copy">
           <p className="text-white text-xl text-center">
-            ©|Copyright 2022 desarrollado por Jesus ayarza|
+            ©| JesuDev 2021 todos los derechos reservados |
           </p>
         </div>
     </section>
