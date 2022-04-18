@@ -1,17 +1,12 @@
-import { ContainerPrimary, LabelMain, ProjectCard } from "../common";
+import { ContainerPrimary, LabelMain, ProjectCard } from "../../common";
+import { ContainerCard, Div } from "./styles";
 
 export const Project = () => {
   return (
-    <ContainerPrimary className="proyect" color="bg-[#282c34]">
-      <div
-        className="w-9/12 h-full flex flex-col justify-evenly 
-    items-center gap-8"
-      >
+    <ContainerPrimary className="proyect" color="#282c34">
+      <Div>
         <LabelMain>Proyectos</LabelMain>
-        <div
-          className="grid [grid-template-columns:repeat(auto-fit,minmax(250px,1fr))]
-       justify-items-center items-center w-full gap-[30px]"
-        >
+        <ContainerCard>
           <ProjectCard
             icon="/pokedex.png"
             href="https://pokedex-nextjs-jesudev.vercel.app/"
@@ -73,8 +68,8 @@ export const Project = () => {
           >
             Side-Bar
           </ProjectCard>
-        </div>
-      </div>
+        </ContainerCard>
+      </Div>
     </ContainerPrimary>
   );
 };

@@ -10,9 +10,6 @@ const Home: NextPage = () => {
         <About />
         <Skill />
         <Project />
-        <div>
-
-        </div>
       </>
     </Main>
   );

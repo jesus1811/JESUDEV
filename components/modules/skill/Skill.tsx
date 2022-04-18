@@ -1,24 +1,15 @@
-import { ContainerPrimary, ImageCard, LabelMain } from "../common";
+import { ContainerPrimary, ImageCard, LabelMain } from "../../common";
+import { ContainerCard, Div, P } from "./styles";
 
 export const Skill = () => {
   return (
-    <ContainerPrimary className="skill" color="bg-[#20232a]">
-      <div
-        className="grid [grid-template-columns:repeat(auto-fit,minmax(250px,1fr))]
-     justify-items-stretch items-center w-9/12 h-[65%] gap-[30px]"
-      >
-        <p
-          className="text-[20px] text-white flex flex-col justify-center text-justify 
-          gap-2"
-          data-aos="fade-right"
-        >
+    <ContainerPrimary className="skill" color="#20232a">
+      <Div>
+        <P data-aos="fade-right">
           <LabelMain>Skills</LabelMain>
           Mi sección de tecnologías:
-        </p>
-        <div
-          className="grid [grid-template-columns:repeat(auto-fit,minmax(85px,1fr))] 
-        justify-items-stretch items-center w-full gap-12"
-        >
+        </P>
+        <ContainerCard>
           <ImageCard icono="/html.svg" nombre="HTML" />
           <ImageCard icono="/css.svg" nombre="CSS" />
           <ImageCard icono="/javascript.svg" nombre="JavaScript" />
@@ -31,8 +22,8 @@ export const Skill = () => {
           <ImageCard icono="/npm.svg" nombre="NPM" />
           <ImageCard icono="/nodejs.svg" nombre="Node JS" />
           <ImageCard icono="/gitlab.svg" nombre="GitLab" />
-        </div>
-      </div>
+        </ContainerCard>
+      </Div>
     </ContainerPrimary>
   );
 };

@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/404.js"  ],
+, "pages/404.js", "components/common/container-primary/styles.js"  ],
   "exclude": [
     "node_modules"
   ]

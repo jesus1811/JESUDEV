@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { FC } from "react";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Footer } from "../footer/Footer";
+import { Header } from "../header/Header";
 interface Props {
   children: JSX.Element;
 }
@@ -21,9 +21,6 @@ export const Main = ({ children }: Props) => {
         />
         <meta name="autor" content="jesus ayarza" />
         <meta name="generator" content="nextjs" />
-        {
-          //agregar etqiuetas metas datos para el SEO
-        }
       </Head>
 
       <main>
