@@ -1,20 +1,16 @@
-import styled from "styled-components";
-import Image from "next/image";
-
-export const Container = styled.div`
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
   width: 100%;
-`;
-export const ImageNext = styled(Image)`
+}
+.image {
   width: 100%;
-`;
-
-export const P = styled.p`
+}
+.parrafo {
   color: white;
   font-size: 20px;
   font-weight: 300;
-`;
+}

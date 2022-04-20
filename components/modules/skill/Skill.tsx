@@ -1,15 +1,15 @@
 import { ContainerPrimary, ImageCard, LabelMain } from "../../common";
-import { ContainerCard, Div, P } from "./styles";
+import styles from "./skill.module.scss";
 
 export const Skill = () => {
   return (
-    <ContainerPrimary className="skill" color="#20232a">
-      <Div>
-        <P data-aos="fade-right">
+    <ContainerPrimary className="skill" color="bgDarkSecundary">
+      <div className={styles.containerDiv}>
+        <p className={styles.parrafo} data-aos="fade-right">
           <LabelMain>Skills</LabelMain>
           Mi sección de tecnologías:
-        </P>
-        <ContainerCard>
+        </p>
+        <div className={styles.containerCard}>
           <ImageCard icono="/html.svg" nombre="HTML" />
           <ImageCard icono="/css.svg" nombre="CSS" />
           <ImageCard icono="/javascript.svg" nombre="JavaScript" />
@@ -22,8 +22,8 @@ export const Skill = () => {
           <ImageCard icono="/npm.svg" nombre="NPM" />
           <ImageCard icono="/nodejs.svg" nombre="Node JS" />
           <ImageCard icono="/gitlab.svg" nombre="GitLab" />
-        </ContainerCard>
-      </Div>
+        </div>
+      </div>
     </ContainerPrimary>
   );
 };

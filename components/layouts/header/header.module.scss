@@ -1,7 +1,4 @@
-import { Link } from "react-scroll";
-import styled from "styled-components";
-
-export const Container = styled.div`
+.container {
   width: 100%;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -14,42 +11,41 @@ export const Container = styled.div`
   position: fixed;
   left: 0;
   top: 0;
-`;
-
-export const Div = styled.div`
+}
+.containerDiv {
   width: 75%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-`;
-
-export const LinkScroll = styled(Link)`
+}
+.link {
   color: white;
   cursor: pointer;
   font-size: 30px;
   font-weight: 600;
-`;
-export const Image = styled.img`
+}
+.image {
   width: 45px;
   display: none;
   color: #61dafb;
 
-  @media (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     display: block;
   }
-`;
-export const Navigation = styled.nav`
+}
+.navigation {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 18px;
   transition: all ease-out 150ms;
 
-  @media (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     position: absolute;
     width: 140px;
     opacity: 0;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -62,4 +58,14 @@ export const Navigation = styled.nav`
     border-radius: 4px;
     overflow: hidden;
   }
-`;
+}
+
+.checkedNav {
+  display: none;
+
+  &:checked ~ .navigation {
+    opacity: 1;
+    height: 250px;
+    display: flex;
+  }
+}

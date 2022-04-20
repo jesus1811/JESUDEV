@@ -1,4 +1,4 @@
-import { Link } from "./styles";
+import styles from "./linkPrimary.module.scss";
 
 interface Props {
   children: string;
@@ -7,8 +7,14 @@ interface Props {
 
 export const LinkPrimary = ({ children, href }: Props) => {
   return (
-    <Link href={href} target="_blank" rel="noreferrer" download="descarga">
+    <a
+      href={href}
+      className={styles.link}
+      target="_blank"
+      rel="noreferrer"
+      download="descarga"
+    >
       {children}
-    </Link>
+    </a>
   );
 };

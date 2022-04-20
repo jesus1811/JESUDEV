@@ -2,6 +2,7 @@ import Head from "next/head";
 import { FC } from "react";
 import { Footer } from "../footer/Footer";
 import { Header } from "../header/Header";
+import styles from "./main.module.scss";
 interface Props {
   children: JSX.Element;
 }

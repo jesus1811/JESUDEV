@@ -1,10 +1,8 @@
-import styled from "styled-components";
-
-export const Image = styled.img`
+.image {
   width: 90px;
   border: solid 2px transparent;
   border-radius: 50%;
-  :hover {
+  &:hover {
     border: solid 2px #61dafb;
   }
-`;
+}

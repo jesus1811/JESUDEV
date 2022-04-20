@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { init } from "aos";
-import { Label } from "./styles";
+import styles from "./labelMain.module.scss";
 interface Props {
   children: string;
 }
@@ -9,6 +9,8 @@ export const LabelMain = ({ children }: Props) => {
     init({ duration: 2000 });
   }, []);
   return (
-    <Label data-aos="fade-up">{children}</Label>
+    <h2 data-aos="fade-up" className={styles.title}>
+      {children}
+    </h2>
   );
 };

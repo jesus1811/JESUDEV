@@ -1,12 +1,13 @@
-import { LinkScroll } from "./styles";
+import { Link } from "react-scroll";
+import styles from "./linkTransparent.module.scss";
 interface Props {
   children: string;
   to: string;
 }
 export const LinkTransparent = ({ children, to }: Props) => {
   return (
-    <LinkScroll to={to} smooth={true}>
+    <Link to={to} smooth={true} className={styles.link}>
       {children}
-    </LinkScroll>
+    </Link>
   );
 };

@@ -1,12 +1,12 @@
 import { ContainerPrimary, LabelMain, ProjectCard } from "../../common";
-import { ContainerCard, Div } from "./styles";
+import styles from "./project.module.scss";
 
 export const Project = () => {
   return (
-    <ContainerPrimary className="proyect" color="#282c34">
-      <Div>
+    <ContainerPrimary className="proyect" color="bgDarkPrimary">
+      <div className={styles.containerDiv}>
         <LabelMain>Proyectos</LabelMain>
-        <ContainerCard>
+        <div className={styles.containerCard}>
           <ProjectCard
             icon="/pokedex.png"
             href="https://pokedex-nextjs-jesudev.vercel.app/"
@@ -68,8 +68,8 @@ export const Project = () => {
           >
             Side-Bar
           </ProjectCard>
-        </ContainerCard>
-      </Div>
+        </div>
+      </div>
     </ContainerPrimary>
   );
 };

@@ -1,18 +1,22 @@
 import Aos from "aos";
+import Image from "next/image";
 import { useEffect } from "react";
-import { Container, ContainerCard, ImageNext, Nombre, Rol } from "./styles";
-
+import styles from "./hero.module.scss";
 export const Hero = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <Container className="hero">
-      <ImageNext src="/fondo.jpg" layout="fill" />
-      <ContainerCard>
-        <Nombre data-aos="fade-up">Jesus Ayarza</Nombre>
-        <Rol data-aos="fade-up">Front End Developer - React</Rol>
-      </ContainerCard>
-    </Container>
+    <section className={styles.container + " hero"}>
+      <Image src="/fondo.jpg" className={styles.image} layout="fill" />
+      <div className={styles.containerCard}>
+        <h1 className={styles.nombre} data-aos="fade-up">
+          Jesus Ayarza
+        </h1>
+        <p className={styles.rol} data-aos="fade-up">
+          Front End Developer - React
+        </p>
+      </div>
+    </section>
   );
 };

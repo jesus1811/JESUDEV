@@ -1,19 +1,11 @@
 import React from "react";
-import { Container } from "./styles";
+import styles from "./containerPrimary.module.scss";
 interface Props {
   children: JSX.Element;
   className?: string;
   color: string;
 }
 
-export const ContainerPrimary = ({
-  children,
-  className,
-  color,
-}: Props) => {
-  return (
-    <Container color={color}  className={className}>
-      {children}
-    </Container>
-  );
+export const ContainerPrimary = ({ children, className, color }: Props) => {
+  return <div className={styles[color] + " " + className}>{children}</div>;
 };

@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-export const Container = styled.section`
+.container {
   min-height: 77vh;
   width: 100%;
   display: flex;
@@ -11,26 +9,25 @@ export const Container = styled.section`
   padding-top: 50px;
   padding-bottom: 50px;
   gap: 30px;
-`;
-
-export const Div = styled.div`
+}
+.containerDiv {
   width: 75%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-`;
-export const ContainerCard = styled.div`
+}
+.containerCard {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
   justify-items: center;
   align-items: center;
   gap: 30px;
-`;
-export const Copy = styled.p`
+}
+.copy {
   color: white;
   font-size: 20px;
   text-align: center;
-`;
+}

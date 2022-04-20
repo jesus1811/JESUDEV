@@ -1,4 +1,4 @@
-import { Image } from "./styles";
+import styles from "./linkCard.module.scss";
 
 interface Props {
   enlace: string;
@@ -7,7 +7,7 @@ interface Props {
 export const LinkCard = ({ enlace, icon }: Props) => {
   return (
     <a href={enlace} target="_blank" rel="noreferrer">
-      <Image src={icon} alt="" data-aos="fade-up" />
+      <img src={icon} alt="" data-aos="fade-up" className={styles.image} />
     </a>
   );
 };

@@ -2,7 +2,8 @@ import { useEffect } from "react";
 import { init } from "aos";
 import "aos/dist/aos.css";
 import { LinkPrimary } from "../link-primary/LinkPrimary";
-import { Container, Div, ImageNext, P, Span, Title } from "./styles";
+import Image from "next/image";
+import styles from "./projectCard.module.scss";
 interface Props {
   children: string;
   icon: string;
@@ -23,15 +24,15 @@ export const ProjectCard = ({
   }, []);
   return (
     <>
-      <Container data-aos="zoom-in">
-        <Title>{children}</Title>
-        <ImageNext src={icon} width="250" height="250" />
-        <Div>
-          <P>{description}</P>
-          <Span>{tegnologia}</Span>
+      <div data-aos="zoom-in" className={styles.container}>
+        <h2 className={styles.title}>{children}</h2>
+        <Image className={styles.image} src={icon} width="250" height="250" />
+        <div className={styles.containerText}>
+          <p className={styles.description}>{description}</p>
+          <span className={styles.tecnologia}>{tegnologia}</span>
           <LinkPrimary href={href}>Ir al sitio Web</LinkPrimary>
-        </Div>
-      </Container>
+        </div>
+      </div>
     </>
   );
 };

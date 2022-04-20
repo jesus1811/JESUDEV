@@ -1,4 +1,5 @@
-import { LinkScroll } from "./styles";
+import { Link } from "react-scroll";
+import styles from "./linkNav.module.scss";
 
 interface Props {
   children: string;
@@ -7,8 +8,8 @@ interface Props {
 
 export const LinkNav = ({ children, to }: Props) => {
   return (
-    <LinkScroll to={to} smooth={true} className="links__a">
+    <Link to={to} smooth={true} className={styles.link + " links__a"}>
       {children}
-    </LinkScroll>
+    </Link>
   );
 };
