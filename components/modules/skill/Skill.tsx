@@ -17,11 +17,11 @@ export const Skill = () => {
           <ImageCard icono="/github.svg" nombre="GitHub" />
           <ImageCard icono="/react.svg" nombre="React JS" />
           <ImageCard icono="/next-js.svg" nombre="Next JS" />
-          <ImageCard icono="/tailwind.svg" nombre="Tailwind" />
+          <ImageCard icono="/tailwind.svg" nombre="TailwindCSS" />
           <ImageCard icono="/sass.svg" nombre="Sass" />
-          <ImageCard icono="/npm.svg" nombre="NPM" />
+          <ImageCard icono="/express.svg" nombre="Express" />
           <ImageCard icono="/nodejs.svg" nombre="Node JS" />
-          <ImageCard icono="/gitlab.svg" nombre="GitLab" />
+          <ImageCard icono="/typescript.svg" nombre="TypeScript" />
         </div>
       </div>
     </ContainerPrimary>

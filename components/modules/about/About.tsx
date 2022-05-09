@@ -11,7 +11,8 @@ export const About = () => {
           <p data-aos="fade-up" className={styles.description}>
             HELLO WORLD! I AM JESUS AYARZA Soy Front-end Developer especializándome en React JS y la maquetación
             responsive, tengo 6 meses de experiencia en trabajo remoto en equipo creando aplicaciones web y landing page
-            personalizadas, me caracterizo por leer mucha documentación y seguir buenas prácticas.
+            personalizadas, me caracterizo por leer mucha documentación y seguir buenas prácticas. Como punto extra a
+            resaltar es que aunque no tengo experiencia en back-end he desarrollado proyectos personales creando APIS y practicado mucho
           </p>
           <div data-aos="fade-up" className={styles.containerButton}>
             <LinkPrimary href="https://jesus1811.github.io/cv/JesusAyarzaCV.pdf">Descargar CV</LinkPrimary>
