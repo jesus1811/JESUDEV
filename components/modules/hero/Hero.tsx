@@ -14,7 +14,7 @@ export const Hero = () => {
           Jesus Ayarza
         </h1>
         <p className={styles.rol} data-aos="fade-up">
-          Front End Developer - React
+          Full Stack Junior Developer - JavaScript
         </p>
       </div>
     </section>

@@ -14,7 +14,7 @@ export const Skill = () => {
           <ImageCard icono="/css.svg" nombre="CSS" />
           <ImageCard icono="/javascript.svg" nombre="JavaScript" />
           <ImageCard icono="/git.svg" nombre="Git" />
-          <ImageCard icono="/github.svg" nombre="GitHub" />
+          <ImageCard icono="/styled-component.svg" nombre="Styled Components" />
           <ImageCard icono="/react.svg" nombre="React JS" />
           <ImageCard icono="/next-js.svg" nombre="Next JS" />
           <ImageCard icono="/tailwind.svg" nombre="TailwindCSS" />

@@ -46,7 +46,7 @@ export const Project = () => {
             icon="/promedio-notas.png"
             href="https://promedio-notas.vercel.app"
             description="Problemas con tu tarea academica? aca en JESUDEV contamos con un sistema ideal"
-            tegnologia="NEXT-NODE-MYSQL-EXPRESS"
+            tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS"
           >
             Sistema de Promedios
           </ProjectCard>
@@ -67,6 +67,14 @@ export const Project = () => {
             tegnologia="NEXTJS-TAILWIND"
           >
             Side-Bar
+          </ProjectCard>
+          <ProjectCard
+            icon="/ossi.png"
+            href="https://osii-freelance.netlify.app/"
+            description="desarrollado para la empresa ossi, empresa del rubro de metalmecanica"
+            tegnologia="HTML-CSS-JAVASCRIPT"
+          >
+            landing Page Ossi
           </ProjectCard>
         </div>
       </div>
