@@ -8,7 +8,7 @@ export const Project = () => {
     <ContainerPrimary className="proyect" color="bgDarkPrimary">
       <div className={styles.containerDiv}>
         <LabelMain>Proyectos</LabelMain>
-        <div className={styles.containerButton}>
+        <div className={styles.containerButton} data-aos="fade-up">
           <ButtonPrimary onClick={() => setOnProyecto(true)}>Proyectos Personales</ButtonPrimary>
           <ButtonPrimary onClick={() => setOnProyecto(false)}>Proyectos Laborales</ButtonPrimary>
         </div>
