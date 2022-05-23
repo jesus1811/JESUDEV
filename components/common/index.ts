@@ -6,3 +6,4 @@ export * from "./image-card/ImageCard";
 export * from "./link-card/LinkCard";
 export * from "./project-card/ProjectCard";
 export * from "./container-primary/ContainerPrimary";
+export * from "./button-primary/ButtonPrimary";
