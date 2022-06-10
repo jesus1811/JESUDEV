@@ -82,7 +82,7 @@ export const Project = () => {
               </ProjectCard>
               <ProjectCard
                 icon="/promedio-notas.png"
-                href="https://promedio-notas.vercel.app"
+                href="https://promedio-nota.up.railway.app/"
                 description="sistema en venta para tareas academicas, incluye codigo fuente y documentacion"
                 tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS"
               >
