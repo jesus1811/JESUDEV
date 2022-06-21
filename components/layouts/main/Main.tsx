@@ -14,14 +14,14 @@ export const Main = ({ children }: Props) => {
         <title>JesuDev</title>
         <meta
           name="description"
-          content="te invito a ver mi web personal desarrollado en NextJS"
+          content="te invito a ver mi Portafolio web desarrollado en Next.js y Sass"
         />
         <meta
           name="keywords"
           content="jesudev,portafolio,reactjs,frontend,javascript"
         />
         <meta name="autor" content="jesus ayarza" />
-        <meta name="generator" content="nextjs" />
+        <meta name="generator" content="Next.js" />
       </Head>
 
       <main>

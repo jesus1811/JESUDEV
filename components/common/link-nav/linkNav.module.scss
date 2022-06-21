@@ -1,14 +1,15 @@
+@use "../../../scss/variables" as *;
 .link {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
-  color: white;
+  color: $white;
   transition: all ease-out 150ms;
   cursor: pointer;
   font-size: 18px;
   &:hover {
-    color: #61dafb;
+    color: $primary;
   }
   @media screen and (max-width: 1024px) {
     width: 100%;

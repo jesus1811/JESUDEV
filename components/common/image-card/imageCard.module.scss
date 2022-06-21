@@ -1,3 +1,4 @@
+@use "../../../scss/variables" as *;
 .container {
   display: flex;
   flex-direction: column;
@@ -10,7 +11,7 @@
   width: 100%;
 }
 .parrafo {
-  color: white;
+  color: $white;
   font-size: 20px;
   font-weight: 300;
   text-align: center;

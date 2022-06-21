@@ -1,3 +1,4 @@
+@use "../../../scss/variables" as *;
 .container {
   width: 100%;
   min-height: 100vh;
@@ -26,14 +27,14 @@
 }
 .nombre {
   font-size: 60px;
-  color: #61dafb;
+  color: $primary;
   font-weight: 600;
   text-align: center;
 
   
 }
 .rol {
-  color: white;
+  color: $white;
   font-size: 28px;
   text-align: center;
 }

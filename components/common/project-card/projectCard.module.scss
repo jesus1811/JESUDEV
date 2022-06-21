@@ -1,3 +1,4 @@
+@use "../../../scss/variables" as *;
 .container {
   display: flex;
   flex-direction: column;
@@ -8,7 +9,7 @@
   gap: 25px;
 }
 .title {
-  color: white;
+  color: $white;
   font-size: 20px;
   text-align: center;
   z-index: 3;
@@ -26,7 +27,7 @@
   bottom: 0;
   z-index: 2;
   opacity: 0;
-  background: #282c34;
+  background: $containerPrimary;
   transition: all ease-out 150ms;
   border-width: 2px;
   border-radius: 4px;
@@ -36,14 +37,14 @@
   }
 }
 .description {
-  color: white;
+  color: $white;
   text-align: center;
   z-index: 3;
   font-size: 16px;
 }
 .tecnologia {
   font-size: 18px;
-  color: #61dafb;
+  color: $primary;
   text-align: center;
 }
 .image {
@@ -56,7 +57,7 @@
   border: solid 2px transparent;
   border-radius: 50%;
   &:hover {
-    border: solid 2px #61dafb;
+    border: solid 2px $primary;
   }
 }
 .containerButtons {

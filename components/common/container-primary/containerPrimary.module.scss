@@ -1,3 +1,4 @@
+@use "../../../scss/variables" as *;
 @mixin container($bg) {
   width: 100%;
   min-height: 100vh;
@@ -9,8 +10,8 @@
   background: $bg;
 }
 .bgDarkPrimary {
-  @include container(#282c34);
+  @include container($containerPrimary);
 }
 .bgDarkSecundary {
-  @include container(#20232a);
+  @include container($containerSecundary);
 }
