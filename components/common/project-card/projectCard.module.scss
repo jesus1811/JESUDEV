@@ -50,3 +50,19 @@
   object-fit: cover;
   border-radius: 4px;
 }
+.repositorio {
+  width: 64px;
+  aspect-ratio: 1/1;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  &:hover {
+    border: solid 2px #61dafb;
+  }
+}
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
