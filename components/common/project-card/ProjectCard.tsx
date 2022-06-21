@@ -28,7 +28,7 @@ export const ProjectCard = ({ children, icon, description, tegnologia, href, rep
           <span className={styles.tecnologia}>{tegnologia}</span>
           <div className={styles.containerButtons}>
             <LinkPrimary href={href}>demo</LinkPrimary>
-            <a href={repositorio} target="_blank">
+            <a href={repositorio} target="_blank" rel="noreferrer">
               <img className={styles.repositorio} src="/github.svg" alt="repositorio github" />
             </a>
           </div>
