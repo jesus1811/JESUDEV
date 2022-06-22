@@ -1,7 +1,11 @@
-import { ContainerPrimary, ImageCard, LabelMain } from "../../common";
-import styles from "./skill.module.scss";
+import { useContext } from "react";
+import ThemeContext from "../../../store/theme/ThemeContext";
+import { ContainerPrimary, LabelMain } from "../../common";
+import { Card } from "./components";
+import styles from "./styles.module.scss";
 
 export const Skill = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <ContainerPrimary className="skill" color="bgDarkSecundary">
       <div className={styles.containerDiv}>
@@ -10,18 +14,18 @@ export const Skill = () => {
           Mi sección de tecnologías:
         </p>
         <div className={styles.containerCard}>
-          <ImageCard icono="/html.svg" nombre="HTML" />
-          <ImageCard icono="/css.svg" nombre="CSS" />
-          <ImageCard icono="/javascript.svg" nombre="JavaScript" />
-          <ImageCard icono="/git.svg" nombre="Git" />
-          <ImageCard icono="/styled-component.svg" nombre="Styled Components" />
-          <ImageCard icono="/react.svg" nombre="React JS" />
-          <ImageCard icono="/next-js.svg" nombre="Next JS" />
-          <ImageCard icono="/tailwind.svg" nombre="TailwindCSS" />
-          <ImageCard icono="/sass.svg" nombre="Sass" />
-          <ImageCard icono="/express.svg" nombre="Express" />
-          <ImageCard icono="/nodejs.svg" nombre="Node JS" />
-          <ImageCard icono="/typescript.svg" nombre="TypeScript" />
+          <Card icono="html" nombre="HTML" />
+          <Card icono="css" nombre="CSS" />
+          <Card icono="javascript" nombre="JavaScript" />
+          <Card icono="git" nombre="Git" />
+          <Card icono="styled-component" nombre="Styled Components" />
+          <Card icono="react" nombre="React JS" />
+          <Card icono="next-js" nombre="Next JS" />
+          <Card icono="tailwind" nombre="TailwindCSS" />
+          <Card icono="sass" nombre="Sass" />
+          <Card icono="express" nombre="Express" />
+          <Card icono="nodejs" nombre="Node JS" />
+          <Card icono="typescript" nombre="TypeScript" />
         </div>
       </div>
     </ContainerPrimary>
