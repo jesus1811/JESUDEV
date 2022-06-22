@@ -12,9 +12,9 @@ export const About = () => {
         <div className={styles.container}>
           <LabelMain>Sobre Mi</LabelMain>
           <p data-aos="fade-up" className={theme ? styles.description_ligth : styles.description}>
-            Soy desarrollador full stack junior titulado de la carrera de Desarrollo de Software actualmente cuento con
-            1 año de experiencia demostrable especializándome en el entorno de React.js y Nodejs, me caracterizo por ser
-            autodidacta y seguir buenas practicas mediante el código limpio.
+            Soy desarrollador full stack junior titulado de la carrera Desarrollo de software actualmente cuento con 1
+            año de experiencia demostrable especializándome en el entorno de React.js y Node.js, me caracterizo por ser
+            autodidacta y seguir buenas prácticas mediante el código limpio.
           </p>
           <div data-aos="fade-up" className={styles.containerButton}>
             <LinkPrimary href="https://jesus1811.github.io/cv/JesusAyarzaCV.pdf">Descargar CV</LinkPrimary>
