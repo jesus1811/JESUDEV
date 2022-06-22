@@ -1,6 +1,14 @@
 @use "../../../scss/variables" as *;
-.title {
+@mixin titleCommon {
   font-size: 40px;
   color: $primary;
   font-weight: 600;
+}
+.title {
+  @include titleCommon();
+  color: $primary;
+}
+.title_light {
+  @include titleCommon();
+  color: $primary-light;
 }

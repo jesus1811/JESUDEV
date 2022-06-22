@@ -1,10 +1,11 @@
+import { useState } from "react";
 import { ContainerPrimary, LabelMain } from "../../common";
 import { ProjectCard } from "./components";
 import styles from "./styles.module.scss";
 
 export const Project = () => {
   return (
-    <ContainerPrimary className="proyect" color="bgDarkPrimary">
+    <ContainerPrimary className="proyect">
       <div className={styles.content}>
         <LabelMain>Proyectos</LabelMain>
         <div className={styles.containerCard}>

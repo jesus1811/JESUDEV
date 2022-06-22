@@ -25,13 +25,17 @@
   align-items: center;
   gap: 20px;
 }
-.nombre {
+@mixin nombreCommon($color) {
   font-size: 60px;
-  color: $primary;
+  color: $color;
   font-weight: 600;
   text-align: center;
-
-  
+}
+.nombre {
+  @include nombreCommon($primary);
+}
+.nombre_ligth {
+  @include nombreCommon($containerSecundary-light);
 }
 .rol {
   color: $white;

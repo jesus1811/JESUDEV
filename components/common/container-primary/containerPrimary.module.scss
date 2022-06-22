@@ -15,3 +15,9 @@
 .bgDarkSecundary {
   @include container($containerSecundary);
 }
+.bgDarkPrimary_light{
+  @include container($containerPrimary-light)
+}
+.bgDarkSecundary_light{
+  @include container($containerSecundary-light)
+}

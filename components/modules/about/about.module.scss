@@ -8,10 +8,16 @@
   align-items: center;
   gap: 80px;
 }
-.description {
+@mixin descriptionCommon($color) {
   font-size: 20px;
-  color: $white;
+  color: $color;
   text-align: justify;
+}
+.description {
+  @include descriptionCommon($white);
+}
+.description_ligth {
+  @include descriptionCommon($black);
 }
 .containerButton {
   width: 100%;

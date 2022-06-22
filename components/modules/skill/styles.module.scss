@@ -8,14 +8,20 @@
   height: 65%;
   gap: 30px;
 }
-.parrafo {
-  color: $white;
+@mixin parrafoCommon($color) {
+  color: $color;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: justify;
   gap: 8px;
+}
+.parrafo {
+  @include parrafoCommon($white);
+}
+.parrafo_ligth {
+  @include parrafoCommon($black);
 }
 .containerCard {
   display: grid;

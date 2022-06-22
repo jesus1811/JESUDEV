@@ -11,9 +11,15 @@
   width: 100%;
   height: 100%;
 }
-.parrafo {
-  color: $white;
+@mixin parrafoCommon($color) {
+  color: $color;
   font-size: 20px;
   font-weight: 300;
   text-align: center;
+}
+.parrafo {
+  @include parrafoCommon($white);
+}
+.parrafo_ligth {
+  @include parrafoCommon($primary-light);
 }

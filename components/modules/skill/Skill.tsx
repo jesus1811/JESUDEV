@@ -7,9 +7,9 @@ import styles from "./styles.module.scss";
 export const Skill = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <ContainerPrimary className="skill" color="bgDarkSecundary">
+    <ContainerPrimary className="skill" variant>
       <div className={styles.containerDiv}>
-        <p className={styles.parrafo} data-aos="fade-right">
+        <p className={theme ? styles.parrafo_ligth : styles.parrafo} data-aos="fade-right">
           <LabelMain>Skills</LabelMain>
           Mi sección de tecnologías:
         </p>

@@ -16,7 +16,7 @@ export const Card = ({ icono, nombre }: Props) => {
   return (
     <div className={styles.card} data-aos="zoom-in">
       <img src={theme ? "/" + icono + "-light.svg" : "/" + icono + ".svg"} className={styles.image} />
-      <p className={styles.parrafo}>{nombre}</p>
+      <p className={theme ? styles.parrafo_ligth : styles.parrafo}>{nombre}</p>
     </div>
   );
 };

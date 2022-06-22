@@ -1,16 +1,23 @@
 @use "../../../scss/variables" as *;
-.link {
+@mixin linkCommon($bg) {
   padding: 8px 16px;
   border-radius: 4px;
-  background: $primary;
   font-size: 20px;
   transition: all ease-out 150ms;
   cursor: pointer;
-  border: solid 2px $primary;
-  color: $black;
   text-decoration: none;
+  background: $bg;
+  border: solid 2px $bg;
   &:hover {
-    background: $primary;
-    border: solid 2px $primary;
+    background: $bg;
+    border: solid 2px $bg;
   }
+}
+.link {
+  @include linkCommon($primary);
+  color: $black;
+}
+.link_light {
+  @include linkCommon($primary-light);
+  color: $white;
 }

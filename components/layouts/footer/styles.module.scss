@@ -1,15 +1,22 @@
 @use "../../../scss/variables" as *;
-.container {
+@mixin containerCommon {
   min-height: 77vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: $containerSecundary;
   padding-top: 50px;
   padding-bottom: 50px;
   gap: 30px;
+}
+.container {
+  @include containerCommon();
+  background: $containerSecundary;
+}
+.container_light {
+  @include containerCommon();
+  background: $containerSecundary-light;
 }
 .containerDiv {
   width: 75%;
@@ -27,8 +34,15 @@
   align-items: center;
   gap: 30px;
 }
-.copy {
-  color: $white;
+@mixin copyCommon {
   font-size: 20px;
   text-align: center;
+}
+.copy {
+  @include copyCommon();
+  color: $white;
+}
+.copy_ligth {
+  @include copyCommon();
+  color: $black;
 }

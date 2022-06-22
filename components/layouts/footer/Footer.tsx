@@ -1,15 +1,17 @@
 import { LabelMain } from "../../common";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { init } from "aos";
 import styles from "./styles.module.scss";
 import { ContactIcon } from "./components";
+import ThemeContext from "../../../store/theme/ThemeContext";
 
 export const Footer = () => {
+  const { theme } = useContext(ThemeContext);
   useEffect(() => {
     init({ duration: 2000 });
   }, []);
   return (
-    <section className={styles.container + " contact"}>
+    <section className={theme ? styles.container_light : styles.container + " contact"}>
       <LabelMain>Contactos</LabelMain>
       <div className={styles.containerDiv}>
         <div className={styles.containerCard}>
@@ -19,7 +21,7 @@ export const Footer = () => {
           <ContactIcon icon="github" enlace="https://github.com/jesus1811" />
         </div>
       </div>
-      <p className={styles.copy}>©| JesuDev 2021 todos los derechos reservados |</p>
+      <p className={theme ? styles.copy_ligth : styles.copy}>©| JesuDev 2021 todos los derechos reservados |</p>
     </section>
   );
 };
