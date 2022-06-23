@@ -47,13 +47,13 @@ export const Project = () => {
             Sistema de administracion de notas
           </ProjectCard>
           <ProjectCard
-            icon="/consigueVentas.jfif"
-            href="https://promedio-notas.vercel.app"
-            repositorio="https://consigueventas.com/"
-            description="colabore en equipo para la empresa CONSIGUE VENTAS EIRL con el rol de programador front-end"
-            tegnologia="LARAVEL-REACT-PHP-MYSQL"
+            icon="/galery-image.png"
+            href="https://galery-images.vercel.app/"
+            repositorio="https://github.com/jesus1811/galery-photos.git"
+            description="Galeria de imagenes almacenandose en el localStorage"
+            tegnologia="NEXT-SASS-REACT-FIREBASE"
           >
-            Sistema de Asistencia
+            Image Gallery
           </ProjectCard>
           <ProjectCard
             icon="/ossi.png"
