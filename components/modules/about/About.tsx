@@ -21,7 +21,7 @@ export const About = () => {
             le gusta compartir mis conocimientos e interactuar con la comunidad
           </p>
           <div data-aos="fade-up" className={styles.containerButton}>
-            <LinkPrimary href="https://jesus1811.github.io/cv/JesusAyarzaCV.pdf">Descargar CV</LinkPrimary>
+            <LinkPrimary href="https://jesus1811.github.io/cv/JesusAyarza.pdf">Descargar CV</LinkPrimary>
             <LinkTransparent data-aos="fade-up" to="contact">
               Contactame
             </LinkTransparent>
