@@ -20,11 +20,6 @@ export const About = () => {
             Soy un desarrollador con solidos conocimientos técnicos además de autodidacta que le gusta seguir aprendiendo de los demás y también que
             le gusta compartir mis conocimientos e interactuar con la comunidad
           </p>
-          <LabelMain>¿Por que yo?</LabelMain>
-          <p data-aos="fade-up" className={theme ? styles.description_ligth : styles.description}>
-            Soy un desarrollador con solidos conocimientos técnicos además de autodidacta que le gusta seguir aprendiendo de los demás y también que
-            le gusta compartir mis conocimientos e interactuar con la comunidad
-          </p>
           <div data-aos="fade-up" className={styles.containerButton}>
             <LinkPrimary href="https://jesus1811.github.io/cv/JesusAyarzaCV.pdf">Descargar CV</LinkPrimary>
             <LinkTransparent data-aos="fade-up" to="contact">
