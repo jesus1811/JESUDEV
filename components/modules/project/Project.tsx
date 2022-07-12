@@ -13,20 +13,19 @@ export const Project = () => {
             icon="/pokedex.png"
             href="https://pokedex-nextjs-jesudev.vercel.app/"
             repositorio="https://github.com/jesus1811/PokedexNextjs"
-            description="Esta aplicacion la realize de forma estatica(Static Side Generation)
-             haciendo uso de la popular API de pokemones"
+            description="Aplicacion web de pokemones para visualizar los skill de los pokemones"
             tegnologia="NEXTJS-TAILWIND"
           >
             Pokedex
           </ProjectCard>
           <ProjectCard
-            icon="/multi-task.png"
-            href="https://jesudevtodolist.netlify.app"
-            repositorio="https://github.com/jesus1811/rep-to-do-lis"
-            description="Aplicacion simple pero el objetivo es de demostrar el uso de estado y persistencia en React"
-            tegnologia="REACT-CSS"
+            icon="/inventory.png"
+            href="https://inventory-frontend-tau.vercel.app/"
+            repositorio="https://github.com/jesus1811/inventory-frontend"
+            description="Aplicacion web de administracion de productos con stock e imagenes"
+            tegnologia="REACT-NEXT-SASS-FIREBASE-EXPRESS-POSTGRESQL (PERN)"
           >
-            To Do List
+            Inventory
           </ProjectCard>
           <ProjectCard
             icon="/loginGoogle.png"
@@ -42,15 +41,15 @@ export const Project = () => {
             href="https://promedio-notas.vercel.app/nota"
             repositorio="https://github.com/jesus1811/jesus1811-next-promedio-notas"
             description="aplicacion web para administrar notas de estudiantes"
-            tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS"
+            tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS (MERN)"
           >
-            Sistema de administracion de notas
+            Notas
           </ProjectCard>
           <ProjectCard
             icon="/galery-image.png"
             href="https://galery-images.vercel.app/"
             repositorio="https://github.com/jesus1811/galery-photos.git"
-            description="Galeria de imagenes almacenandose en el localStorage"
+            description="Aplicacion web de galeria de imagenes almacenandose en el localStorage"
             tegnologia="NEXT-SASS-REACT-FIREBASE"
           >
             Image Gallery
@@ -62,7 +61,7 @@ export const Project = () => {
             description="desarrollado para la empresa OSII EIRL, empresa del rubro de metalmecanica"
             tegnologia="HTML-CSS-JAVASCRIPT"
           >
-            landing Page Ossi
+            Ossi
           </ProjectCard>
         </div>
       </div>
