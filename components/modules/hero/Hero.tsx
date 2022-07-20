@@ -10,7 +10,7 @@ export const Hero = () => {
       <div className={styles.containerCard}>
         <h1 className={theme ? styles.nombre_ligth : styles.nombre} data-aos="fade-up">Jesus Ayarza</h1>
         <p className={styles.rol} data-aos="fade-up">
-          Full Stack Junior Developer
+          Front end developer
         </p>
       </div>
     </section>
