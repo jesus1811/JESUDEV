@@ -16,7 +16,7 @@ export const Project = () => {
             description="Aplicacion web de servicios, cuenta con historial, y administracion de los servicios de cada usuario"
             tegnologia="NEXTJS-STYLED COMPONENTS-FIREBASE-EXPRESS-MYSQL (MERN)"
           >
-            Pokedex
+            Service-commerce
           </ProjectCard>
           <ProjectCard
             icon="/inventory.png"
@@ -43,7 +43,7 @@ export const Project = () => {
             description="aplicacion web para administrar notas de estudiantes"
             tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS (MERN)"
           >
-            Notas
+            Notes
           </ProjectCard>
           <ProjectCard
             icon="/galery-image.png"
