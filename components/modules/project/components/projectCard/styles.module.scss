@@ -55,7 +55,7 @@
   @include descriptionCommon($black);
 }
 @mixin tecnologiaCommon($color) {
-  font-size: 18px;
+  font-size: 15px;
   color: $color;
   text-align: center;
 }

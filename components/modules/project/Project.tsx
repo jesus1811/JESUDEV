@@ -10,11 +10,11 @@ export const Project = () => {
         <LabelMain>Proyectos</LabelMain>
         <div className={styles.containerCard}>
           <ProjectCard
-            icon="/pokedex.png"
-            href="https://pokedex-nextjs-jesudev.vercel.app/"
-            repositorio="https://github.com/jesus1811/PokedexNextjs"
-            description="Aplicacion web de pokemones para visualizar los skill de los pokemones"
-            tegnologia="NEXTJS-TAILWIND"
+            icon="/service-comerce.png"
+            href="https://service-comerce.vercel.app/"
+            repositorio="https://github.com/jesus1811/entregable03-front.git"
+            description="Aplicacion web de servicios, cuenta con historial, y administracion de los servicios de cada usuario"
+            tegnologia="NEXTJS-STYLED COMPONENTS-FIREBASE-EXPRESS-MYSQL (MERN)"
           >
             Pokedex
           </ProjectCard>
