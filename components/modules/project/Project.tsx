@@ -28,19 +28,19 @@ export const Project = () => {
             Inventory
           </ProjectCard>
           <ProjectCard
-            icon="/loginGoogle.png"
-            href="https://jesus1811.github.io/login-auth/"
-            repositorio="https://github.com/jesus1811/repo-login-auth"
-            description="Login consumiendo la API de google para una mejor autenticacion"
-            tegnologia="REACT-CSS-FIREBASE"
+            icon="/multi-task.png"
+            href="https://multi-task.netlify.app/"
+            repositorio="https://github.com/jesus1811/rep-to-do-lis.git"
+            description="Aplicacion web de tareas, es la app mas basica que tengo pero lo guardo porque fue mi primera app 😥"
+            tegnologia="REACT-CSS"
           >
-            Google Auth
+            To do list
           </ProjectCard>
           <ProjectCard
             icon="/promedio-notas.png"
             href="https://promedio-notas.vercel.app/nota"
             repositorio="https://github.com/jesus1811/jesus1811-next-promedio-notas"
-            description="aplicacion web para administrar notas de estudiantes"
+            description="Aplicacion web para administrar notas de estudiantes"
             tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS (MERN)"
           >
             Notes
