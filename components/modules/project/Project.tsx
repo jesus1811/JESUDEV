@@ -12,7 +12,7 @@ export const Project = () => {
           <ProjectCard
             icon="/service-comerce.png"
             href="https://service-comerce.vercel.app/"
-            repositorio="https://github.com/jesus1811/entregable03-front.git"
+            repositorio="https://github.com/jesus1811/service-comerce.git"
             description="Aplicacion web de servicios, cuenta con historial, y administracion de los servicios de cada usuario"
             tegnologia="NEXTJS-STYLED COMPONENTS-FIREBASE-EXPRESS-MYSQL (MERN)"
           >
@@ -21,25 +21,25 @@ export const Project = () => {
           <ProjectCard
             icon="/inventory.png"
             href="https://inventory-frontend-tau.vercel.app/"
-            repositorio="https://github.com/jesus1811/inventory-frontend"
+            repositorio="https://github.com/jesus1811/inventory.git"
             description="Aplicacion web de administracion de productos con stock e imagenes"
             tegnologia="REACT-NEXT-SASS-FIREBASE-EXPRESS-POSTGRESQL (PERN)"
           >
             Inventory
           </ProjectCard>
           <ProjectCard
-            icon="/multi-task.png"
-            href="https://multi-task.netlify.app/"
-            repositorio="https://github.com/jesus1811/rep-to-do-lis.git"
-            description="Aplicacion web de tareas, es la app mas basica que tengo pero lo guardo porque fue mi primera app 😥"
+            icon="/auth-google.png"
+            href="https://auth-login.vercel.app/"
+            repositorio="https://github.com/jesus1811/auth.git"
+            description="Aplicacion web de autenticación de usuario "
             tegnologia="REACT-CSS"
           >
-            To do list
+            Auth Google
           </ProjectCard>
           <ProjectCard
             icon="/promedio-notas.png"
             href="https://promedio-notas.vercel.app/nota"
-            repositorio="https://github.com/jesus1811/jesus1811-next-promedio-notas"
+            repositorio="https://github.com/jesus1811/notes.git"
             description="Aplicacion web para administrar notas de estudiantes"
             tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS (MERN)"
           >
