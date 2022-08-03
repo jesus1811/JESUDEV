@@ -38,7 +38,7 @@ export const Project = () => {
           </ProjectCard>
           <ProjectCard
             icon="/promedio-notas.png"
-            href="https://promedio-notas.vercel.app/nota"
+            href="https://promedio-notas.vercel.app/"
             repositorio="https://github.com/jesus1811/notes.git"
             description="Aplicacion web para administrar notas de estudiantes"
             tegnologia="NEXT-NODE-MYSQL-EXPRESS-SASS (MERN)"
@@ -55,13 +55,13 @@ export const Project = () => {
             Image Gallery
           </ProjectCard>
           <ProjectCard
-            icon="/ossi.png"
-            href="https://osii-freelance.netlify.app/"
+            icon="/secret-chat.png"
+            href="https://secret-chat-jesudev.vercel.app/"
             repositorio="https://github.com/jesus1811/ossi"
-            description="desarrollado para la empresa OSII EIRL, empresa del rubro de metalmecanica"
-            tegnologia="HTML-CSS-JAVASCRIPT"
+            description="aplicacion web de chat con salas el cual podras enviar mensajes e interactuar con grupos de amigos"
+            tegnologia="NEXTJS-STYLED COMPONENTS-FIREBASE-EXPRESS-POSTGRESQL (PERN)"
           >
-            Ossi
+            Secret Chat
           </ProjectCard>
         </div>
       </div>
