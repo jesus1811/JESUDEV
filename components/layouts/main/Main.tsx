@@ -22,6 +22,7 @@ export const Main = ({ children }: Props) => {
         />
         <meta name="autor" content="jesus ayarza" />
         <meta name="generator" content="Next.js" />
+        <link rel="icon" href="/jesuDev.ico" />
       </Head>
 
       <main>
