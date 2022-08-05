@@ -13,7 +13,6 @@ export const Header = () => {
     <section className={theme ? styles.container_light : styles.container}>
       <div className={styles.containerDiv}>
         <input type="checkbox" id="check" className={styles.checkedNav} />
-        <img src="/jesuDev.ico" alt="jesudev" style={{ width: "70px" }} />
         <Link to="inicio" smooth={true} className={theme ? styles.linkMain_ligth : styles.linkMain}>
           JesuDev
         </Link>

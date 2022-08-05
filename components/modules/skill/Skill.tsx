@@ -27,6 +27,7 @@ export const Skill = () => {
           <Card icono="nodejs" nombre="Node JS" />
           <Card icono="typescript" nombre="TypeScript" />
           <Card icono="redux" nombre="Redux" />
+          <Card icono="jest" nombre="Jest" />
         </div>
       </div>
     </ContainerPrimary>
